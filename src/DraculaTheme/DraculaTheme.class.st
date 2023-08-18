@@ -29,6 +29,12 @@ DraculaTheme class >> baseTextColor [
 ]
 
 { #category : #colors }
+DraculaTheme class >> colorConfiguratorClass [
+
+	^ DraculaThemeColorConfigurator
+]
+
+{ #category : #colors }
 DraculaTheme class >> darkBaseColor [
 
 	^ self baseColor
@@ -72,12 +78,6 @@ DraculaTheme class >> themeName [
 ]
 
 { #category : #'accessing - colors' }
-DraculaTheme >> backgroundColor [
-
-	^ Color fromHexString: #'282a36'
-]
-
-{ #category : #'accessing - colors' }
 DraculaTheme >> balloonBackgroundColor [
 
 	^ self backgroundColor lighter
@@ -114,12 +114,6 @@ DraculaTheme >> buttonNormalBorderStyleFor: aButton [
 	^ SimpleBorder new
 		  width: 1;
 		  baseColor: self buttonColor darker
-]
-
-{ #category : #'accessing - colors' }
-DraculaTheme >> desktopColor [ 
-
-	^ Color fromHexString: #'191a21'
 ]
 
 { #category : #'accessing - colors' }
