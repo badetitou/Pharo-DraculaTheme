@@ -160,7 +160,7 @@ DraculaThemeColorConfigurator >> lessConspicuousColorFrom: aColor [
 { #category : #colors }
 DraculaThemeColorConfigurator >> lightBackgroundColor [
 
-	^ Color r: 0.218 g: 0.217 b: 0.217
+	^ Color fromHexString: #'282a36'
 ]
 
 { #category : #colors }
