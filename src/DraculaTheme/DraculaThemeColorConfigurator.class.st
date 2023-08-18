@@ -85,7 +85,7 @@ DraculaThemeColorConfigurator >> darkBaseColor [
 { #category : #colors }
 DraculaThemeColorConfigurator >> desktopColor [
 
-	^ Color fromHexString: #'191a21'
+	^ Color fromHexString: #'343746'
 ]
 
 { #category : #colors }
