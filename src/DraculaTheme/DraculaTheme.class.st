@@ -40,6 +40,12 @@ DraculaTheme class >> darkBaseColor [
 	^ self baseColor
 ]
 
+{ #category : #'class initialization' }
+DraculaTheme class >> initialize [
+
+	PolymorphSystemSettings uiThemeClass: self
+]
+
 { #category : #colors }
 DraculaTheme class >> lightBaseColor [
 
