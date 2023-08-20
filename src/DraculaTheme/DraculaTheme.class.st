@@ -43,7 +43,8 @@ DraculaTheme class >> darkBaseColor [
 { #category : #'class initialization' }
 DraculaTheme class >> initialize [
 
-	PolymorphSystemSettings uiThemeClass: self
+	PolymorphSystemSettings uiThemeClass: self.
+	SHPreferences setStyleTableNamed: #Dracula
 ]
 
 { #category : #colors }
