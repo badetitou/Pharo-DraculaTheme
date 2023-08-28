@@ -121,10 +121,7 @@ DraculaThemeColorConfigurator >> disabledColor [
 { #category : #colors }
 DraculaThemeColorConfigurator >> disabledLabelColor [
 
-	^ Color r: 0.7673509286412512
-		  g: 0.7673509286412512
-		  b: 0.7673509286412512
-		  alpha: 0.7647058823529411
+	^ Color fromHexString: #C4C4C4
 ]
 
 { #category : #colors }
