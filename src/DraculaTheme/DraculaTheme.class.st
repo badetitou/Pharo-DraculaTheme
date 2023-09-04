@@ -83,3 +83,9 @@ DraculaTheme class >> themeName [
 
 	^ 'Dracula'
 ]
+
+{ #category : #accessing }
+DraculaTheme >> shStyleTableName [
+
+	^ #draculaStyleTable
+]
