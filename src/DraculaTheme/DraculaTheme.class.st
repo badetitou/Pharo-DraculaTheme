@@ -85,6 +85,14 @@ DraculaTheme class >> themeName [
 ]
 
 { #category : #accessing }
+DraculaTheme >> roassalHNodeBackgroundColors [
+
+	^ {
+		  Smalltalk ui theme buttonColor asHexString.
+		  Smalltalk ui theme baseColor asHexString }
+]
+
+{ #category : #accessing }
 DraculaTheme >> shStyleTableName [
 
 	^ #draculaStyleTable
