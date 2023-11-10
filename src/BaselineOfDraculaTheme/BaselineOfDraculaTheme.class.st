@@ -31,7 +31,11 @@ BaselineOfDraculaTheme >> defineGroups: spec [
 { #category : #baselines }
 BaselineOfDraculaTheme >> definePackages: spec [
 
+	spec for: #'pharo10.x' do: [ spec package: 'DraculaTheme10' ].
 	spec
-		package: 'DraculaTheme';
-		package: 'DraculaBridge' with: [ spec requires: #( 'GitBridge' ) ]
+		for: #( #'pharo11.x' #'pharo12.x' )
+		do: [ spec package: 'DraculaTheme' ].
+	spec
+		package: 'DraculaBridge'
+		with: [ spec requires: #( 'GitBridge' ) ]
 ]
